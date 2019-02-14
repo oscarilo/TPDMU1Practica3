@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Join a Norwegian Club!"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_below="@id/titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Practice chatting in Norwegian with other learners"
+        android:textSize="23dp"
+        />
+
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/face"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/insta"
+        android:layout_below="@id/face"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/you"
+        android:layout_below="@id/titulo2"
+
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tw"
+        android:layout_below="@id/titulo2"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND ME A CLUB"
+        android:layout_below="@id/insta"
+        android:padding="20dp"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:ems="10"
+        android:layout_below="@id/find"
+        android:padding="20dp"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLUB CODE"
+        android:ems="10"
+        android:layout_below="@id/find"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon2"
+        android:layout_toRightOf="@id/icon1"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon3"
+        android:layout_toRightOf="@+id/icon2"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon4"
+        android:layout_toRightOf="@id/icon3"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon5"
+        android:layout_toRightOf="@id/icon4"
+        />
+
+
+</RelativeLayout>
